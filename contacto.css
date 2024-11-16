@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    width: 100%; /* ancho */
+    height: 100px;
+}
+
+.enlacesheader {
+    display: block;
+    float: right;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 5px;
+}
+
+.activo {
+    color: red;
+}
+
+.fondo-imagen {
+    background: url('/imagenes/fondo.png') no-repeat center center fixed; 
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.igg {
+    font-size: 33px;
+}
+
+#nombre:hover {
+    color: black;
+}
+ i {
+    font-size: 30px;
+    padding: 8px;
+ }
+
+ .wh {
+    width: 70px;
+    height: 60px;
+    position: fixed;
+    right: 15px;
+    top: 90%;
+
+}
+
+.hov:hover {
+    color: green;
+}

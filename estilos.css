@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    width: 100%; /* ancho */
+    height: 100px;
+}
+
+img {
+    display: inline-block; /* Hace que la imagen tenga el tamaño de un cuadro y no todo el ancho */
+}
+
+
+
+.fondo-imagen {
+    background: url('imagenes/fondo.png') no-repeat center center fixed; 
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+a {
+    padding: 6px;
+    font-size: 20px;
+
+}
+
+#carouselExampleIndicators {
+    padding-top: 7%;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: red;
+}
+
+.row {
+    padding-left: 100px;
+}
+
+.card-body {
+    width: 100%;
+}
+
+#servicios {
+    height: 80%;
+}
+
+.recomendado {
+    color: rgb(40, 37, 37);
+    font-size: 37px;
+    width: 100%;
+    text-align: center;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.silkscreen-regular {
+    font-family: "Silkscreen";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.silkscreen-bold {
+    font-family: "Silkscreen";
+    font-weight: 700;
+    font-style: normal;
+}
+
+#exampleInputEmail1, #exampleInputPassword1, #exampleInputNumber1, #exampleInputText1 {
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid;
+}
+
+#exampleInputEmail1::placeholder {
+    color:red;
+}
+
+#exampleInputText1::placeholder {
+    color: red;
+}
+
+#exampleInputNumber1::placeholder {
+    color:red;
+}
+
+.enlacesheader {
+    display: block;
+    float: right;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 5px;
+}
+
+.activo {
+    color: red;
+}
+
+#menusito:hover {
+    color: red;
+}
+
+.hov:hover {
+    color: green;
+}
